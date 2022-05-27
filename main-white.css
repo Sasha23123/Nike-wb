@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+body{
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 1442px;
+    height: 1024px;
+    background-color: rgb(255, 255, 255);
+    /* for visible border */    
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* !!! */
+}
+/* Header */
+.main-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1340px;
+    height: 81px;
+}
+.main-top-gender{
+    display: inline-flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    padding: 0px;
+    width: 268.12px;
+    height: 24px;
+}
+.main-top-gender-w{
+    width: 90px;
+    height: 24px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.main-top-gender-m{
+    width: 44px;
+    height: 22px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.main-top-gender-all{
+    width: 35px;
+    height: 22px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.main-top-gender-w > a, .main-top-gender-m > a, .main-top-gender-all > a{
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.main-top-gender-w:after{
+    display: block;
+    position: relative;
+    left: px;
+    width: 0;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    content: "";
+    transition: width 0.3s ease-out;
+}
+.main-top-gender-w:hover:after,
+.main-top-gender-w:focus:after {
+	width: 85px;
+}
+.main-top-gender-m:after{
+    display: block;
+	position: relative;
+	left: 0px;
+	width: 0;
+	height: 3px;
+	background-color: rgb(0, 0, 0);
+	content: "";
+	transition: width 0.3s ease-out;
+}
+.main-top-gender-m:hover:after,
+.main-top-gender-m:focus:after {
+	width: 45px;
+}
+.main-top-gender-all:after{
+    display: block;
+	position: relative;
+	left: 0px;
+	width: 0;
+	height: 3px;
+	background-color: rgb(0, 0, 0);
+	content: "";
+	transition: width 0.3s ease-out;
+}
+.main-top-gender-all:hover:after,
+.main-top-gender-all:focus:after {
+	width: 36px;
+}
+.main-top-logo{
+    display: inline-flex;
+}
+.main-top-logo > img {
+    width: 290px;
+    height: 81px;
+}
+.main-top-account{
+    display: flex;
+    justify-content: space-between;
+    width: 158px;
+    height: 22px;
+}
+/* Main */
+.main-centre{
+    display: flex;
+    width: 1442px;
+    height: 689px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main-centre-text > span > h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.03em;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.main-centre-text > span > h1 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 73px;
+    letter-spacing: 0.03em;
+    color: rgb(0, 0, 0);
+}
+.main-centre-text > h3{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.main-centre-text > p:first-of-type{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+}
+.main-centre-text > p:last-of-type{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+}
+.main-centre-text > p {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+/*Bottom*/
+.main-bottom{
+    WIDTH: 1341px;
+    height: 119px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-cost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.03em;
+    color: rgb(0, 0, 0);
+    line-height: 100%;
+}
+.bottom-buy-button{
+    width: 228px;
+    height: 60px;
+    border-radius: 17px;
+    background: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.main-bottom > div > button{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: center;
+}
+.main-bottom > div > button > a{
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.l-block{
+    display: inline-flex;
+    width: 66px;
+    height: 24px;
+    justify-content: space-between;
+}
+.main-bottom-EN-l{
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+}
+.main-bottom-UA-l{
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+}
+/* Button */
+.switch-btn {
+    display: inline-block;
+    width: 62px; /* ширина переключателя */
+    height: 24px; /* высота переключателя */
+    border-radius: 12px; /* радиус скругления */
+    background: #bfbfbf; /* цвет фона */
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 300ms; /* анимация */
+}
+
+.switch-btn::after {
+    content: "";
+    height: 36px; /* высота кнопки */
+    width: 36px; /* ширина кнопки */
+    border-radius: 18px; /* радиус кнопки */
+    background: #000000; /* цвет кнопки */
+    top: -6px; /* положение кнопки по вертикали относительно основы */
+    left: -6px; /* положение кнопки по горизонтали относительно основы */
+    transition-duration: 300ms; /* анимация */
+    box-shadow: 0 0 10px 0 #999999; /* тень */
+    position: absolute;
+    z-index: 1;
+}
+
+.switch-on {
+    background: #000000;
+    box-shadow: inset 0 0 10px 0 #999999; /* тень */
+}
+
+.switch-on::after {
+    left: 30px;
+    background: #ffffff;
+}
+
+.bl-hide {
+    background-color: #ffffff;
+}
+.bl-black{
+    color: #000000;
+}
+
+
+.main-top-account-icon-nike-and-text{
+    width: 288px;
+    height: 81px;
+    background-image: url('png/icon-nike-and-text-black.png');
+    content: "";
+    background-repeat: no-repeat;
+}
+.main-top-account-acc{
+    width: 19px;
+    height: 22px;
+    background-image: url('png/icon-profile-black.png');
+    content: "";
+    background-repeat: no-repeat;
+}
+.main-top-account-search{
+    width: 19px;
+    height: 19px;
+    background-image: url('png/icon-search-black.png');
+    content: "";
+    background-repeat: no-repeat;
+}
+.main-top-account-orders{
+    width: 23px;
+    height: 24px;
+    background-image: url('png/icon-orders-black.png');
+    content: "";
+    background-repeat: no-repeat;
+}
