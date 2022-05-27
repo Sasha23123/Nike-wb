@@ -223,10 +223,10 @@ body{
 /* Button */
 .switch-btn {
     display: inline-block;
-    width: 62px; /* ширина переключателя */
-    height: 24px; /* высота переключателя */
-    border-radius: 12px; /* радиус скругления */
-    background: #bfbfbf; /* цвет фона */
+    width: 62px;
+    height: 24px;
+    border-radius: 12px;
+    background: #bfbfbf;
     z-index: 0;
     margin: 0;
     padding: 0;
